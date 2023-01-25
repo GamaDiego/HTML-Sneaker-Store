@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<!-- This is my own work -->
+
+<body style="background-color:#59BEA1;">
+
+<head>
+<title>Register</title>
+</head>
+
+<ul class="breadcrumb">
+<a href="HomePage.html">Home</a> > Register
+</ul>
+
+<h1><center>REGISTER</center></h1>
+
+<h2>Personal Information</h2>
+<form action="http://www.WebsiteDevelopmentBook.com/FormEcho.php" method="post">
+<table cellpadding="5" style="text-align: right;">
+<tr>
+<td><b>First Name: <input type="text" name="First Name"/></b></td>
+<td><b>Last Name: <input type="text" name="Last Name"/></b></td>
+</tr>
+<tr>
+<td><b>Address: <input type="text" name="Address"/></b></td>
+<td><b>Zip Code: <input type="text" name="Zip Code" maxlength="5" size="5"/></b></td>
+</tr>
+<tr>
+<td><b>City: <input type="text" name="City"/></b></td>
+<td><b>State: <select name="State">
+<option value="AL">Alabama</option>
+<option value="AK">Alaska</option>
+<option value="AZ">Arizona</option>
+<option value="AR">Arkansas</option>
+<option value="CA">California</option>
+<option value="CO">Colorado</option>
+<option value="CT">Connecticut</option>
+<option value="DE">Delaware</option>
+<option value="FL">Florida</option>
+<option value="GA" selected>Georgia</option>
+<option value="HI">Hawaii</option>
+<option value="ID">Idaho</option>
+<option>Other</option>
+</select></td>
+</tr>
+</table>
+
+<br>
+<br>
+
+<h2>Security</h2>
+<table cellpadding="5" style="text-align: right;">
+<tr>
+<td><b>Password: <input type="password" name="Password"/></b></td>
+</tr>
+<tr>
+<td><b>Password Hint: <input type="text" name="Password hint"/></b></td>
+</tr>
+<tr>
+<td><b>Password Hint Answer: <input type="password" name="Password hint answer"/></b></td>
+</tr>
+</table>
+
+<input type="hidden" name="hiddenField" value="hidden value"/>
+
+<br>
+<br>
+
+<h2>Preferences</h2>
+<table cellpadding="5" style="text-align: left;">
+<tr>
+<td><b>Favorite Brands: </b>
+Adidas <input type="checkbox" name="Adidas"/>
+Nike <input type="checkbox" name="Nike"/>
+Jordan <input type="checkbox" name="Jordan"/>
+Yeezy <input type="checkbox" name="Yeezy"/>
+Other <input type="checkbox" name="Other"/></td>
+</tr>
+<tr>
+<td><b>Other Preferences: <textarea rows="5" cols="25" id="Other Preferences" class="text" name="Other Preferences"></textarea></b></td>
+</tr>
+</table>
+
+<br>
+<br>
+
+<input type="submit" value="Click to Submit"/>
+<input type="reset" value="Reset"/>
+
+</form>
+
+<br>
+<br>
+<br>
+
+<hr>
+
+<footer>
+Created by Diego Galvan, February 19, 2021.
+</footer>
+
+</body>
+</html>
